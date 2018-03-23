@@ -67,7 +67,7 @@ else:
 
 #Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.
 #Dica: utilize o operador módulo (resto da divisão).
-
+"""
 num= input("Digite um Número Inteiro:")
 num= int(num)
 
@@ -76,3 +76,17 @@ if num % 2 ==0:
 
 else:
     print("O número é impar!")
+"""
+
+#Faça um algoritmo que peça um número e se ele for par some 5, se não, some 8.
+
+a= input("Digite um número:")
+a= int(a)
+
+if a % 2 == 0:
+    a= a+5
+    print(a)
+
+else:
+    a= a+8
+    print(a)
