@@ -71,7 +71,7 @@ else:
 num= input("Digite um Número Inteiro:")
 num= int(num)
 
-if % 2 ==0:
+if num % 2 ==0:
     print("O número é par!")
 
 else:
